@@ -1,0 +1,235 @@
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    font-family: Merriweather, "Times New Roman", serif;
+    background-color: #f5f5f5;
+    background-image: url(https://codeblock.co.za/wp-content/themes/vintwood/img/patterns/exclusive-paper.png);
+}
+
+main {
+    margin: 30px 0 70px 0;
+    min-height: 100%;
+}
+    
+.header-before{
+    position: absolute;
+    left: 23px;
+    top: 0;
+    width: calc(100% - 46px);
+    height: 9px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(8,127,121);
+}
+
+.header-cont {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 23px;
+}
+
+.header-left, .header-right {
+    width: calc(100% - 80px);
+    border-top: 2px solid #eca71e;
+    border-bottom: 2px solid #eca71e;
+    min-height: 80px;
+}
+
+.header-cont .logo {
+    height: 80px;
+    text-align: center;
+}
+
+.header-cont .logo img {
+    height: 80px;
+    width: auto;
+}
+
+footer {
+    color: #fff;
+    background-color: #087f79;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.page-title {
+    background-color: #087f79;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.page-title h1{
+    display: block;
+    text-align: center;
+    -webkit-text-stroke-color: #e4ddd3;
+    -webkit-text-stroke-width: 3px;
+    font-family:Barlow Condensed;
+    color:#224a49;
+    font-size: 55px;
+    background-color: #e04f23;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    font-weight: 600;
+    filter: drop-shadow(2px 3px 0 #065b55);
+    text-transform: capitalize;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.04em;
+}
+
+.form-control {
+    width: auto;
+}
+
+.product {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 12px;
+    text-align: center;
+}
+
+.product-image {
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-title h3 {
+    color: #087f79;
+    font-family: "Barlow Condensed";
+}
+
+.product-sku, .product-price, .product-category {
+    margin-bottom: 5px;
+}
+
+.product-sku, .product-category {
+    color: #999;
+}
+
+.product-price {
+   color: #e04f23
+}
+
+.filters {
+    align-items: center;
+    background-color: #ddd;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.filters form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.filters form > * {
+    margin-right: 10px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 12px;
+    text-align: center;
+}
+
+.product-image {
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-title h3 {
+    color: #087f79;
+    font-family: "Barlow Condensed";
+}
+
+.product-sku, .product-price, .product-category {
+    margin-bottom: 5px;
+}
+
+.product-sku, .product-category {
+    color: #999;
+}
+
+.product-price {
+   color: #e04f23
+}
+
+.filters {
+    align-items: center;
+    background-color: #ddd;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.filters form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+
+.filters form .form-row{
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    
+    .filters form {
+        flex-wrap: wrap;
+    }
+    
+    .filters form .form-row {
+        width: 100%;
+    }
+    
+    .filters form .form-row > div {
+        margin-bottom: 10px;
+    }
+    
+    .filters form .form-row > div * {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+     .filters form span {
+        width: 100%;
+        flex-shrink: 0;
+        display: block;
+    }
+    
+    .filters form input, .filters form select {
+        width: 50%;
+    }
+}
+
+
