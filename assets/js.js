@@ -69,6 +69,10 @@ function loadProducts( extraQueries = {}) {
     
 }
 
+/************************************************
+ * Adds Load More Button Functionality
+ * Exclude this if only infinite scroll is needed
+*************************************************/
 $(document).on('click', '#load-more', function() {
     
     let currentQuery = {};
@@ -82,6 +86,11 @@ $(document).on('click', '#load-more', function() {
     
     
 });
+
+/************************************************
+ * Adds Infinite Scroll Functionality
+ * Exclude this if only load more button is needed
+*************************************************/
 
 $(window).scroll(function() {
     
